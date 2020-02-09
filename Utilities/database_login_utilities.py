@@ -4,7 +4,7 @@ import flask_app
 
 
 # Returns user data in JSON format
-# Called when a user is creating a new account
+# Called when a user presses "Create Account" button
 def db_create_user(db, username: str, password: str):
     # check if username already exists in database
     user = flask_app.login_table.query.get(username)
