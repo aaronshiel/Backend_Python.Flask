@@ -3,6 +3,7 @@ import hashlib
 import flask_app
 
 
+# Updates user database with new user
 # Returns user data in JSON format
 # Called when a user presses "Create Account" button
 def db_create_user(db, username: str, password: str):
