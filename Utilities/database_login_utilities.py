@@ -3,7 +3,6 @@ import hashlib
 import flask_app
 
 
-# Creates new account through user entry fields
 # Returns user data in JSON format
 # Called when a user is creating a new account
 def db_create_user(db, username: str, password: str):
